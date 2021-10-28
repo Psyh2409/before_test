@@ -1,0 +1,94 @@
+.bd{
+    width: 100vw;
+    height: auto;
+    padding: 2vw;
+}
+.hdr{
+    width: 93vw;
+}
+.top{
+    padding: 2em;
+    padding-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+
+}
+.logo{
+    margin-top: -0.35em;
+}
+.topul{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btns{
+    width: 30%;
+}
+.btn{
+    width: 12vw;
+    height: 60%;
+    color: blue;
+    background: white;
+}
+.blue{
+    background-color: blue;
+    color: #fff;
+}
+.bgimg{
+    background: url("/image/background-new.jpg") no-repeat;
+    background-size: cover;
+    height: 82vh;
+    position: relative;
+}
+.holla{
+    background: rgba(250, 250, 250, .6);
+    width: 32%;
+    padding: .3em;
+    position: absolute;
+    bottom: 6em;
+    left: 5em;
+    text-align: justify;   
+}
+.holla h2{
+    color: red;
+}
+.frm{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    right: 2em;
+    top: 20%;
+}
+.inp_sbmt{
+    width: 5em;
+    height: 3em;
+}
+.drpbtn{
+    width: 30%;
+}
+.mn{
+    padding-right: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mn section{
+    width: 32%;
+    height: auto;
+    text-align: justify;
+    padding: 2%;
+}
+.mn section img{
+    width: 90%;
+    align-self: center;
+}
+.mn section h4{
+    color: red;
+}
+.ftr{
+    background: gray;
+    height: 20vh;
+}
